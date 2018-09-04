@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21227DBB21356BFC0059E909 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21227DBA21356BFC0059E909 /* main.cpp */; };
-		21227DC62136928D0059E909 /* lab1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21227DC42136928D0059E909 /* lab1.cpp */; };
-		21227DE8213963450059E909 /* inputlab.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21227DE6213963450059E909 /* inputlab.cpp */; };
-		21227DFE213974E30059E909 /* wordlength.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21227DFC213974E30059E909 /* wordlength.cpp */; };
+		21227DD7213698030059E909 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21227DD6213698030059E909 /* main.cpp */; };
+		21227DDF21369AA90059E909 /* boxCollision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21227DDD21369AA90059E909 /* boxCollision.cpp */; };
+		21227DE221369B740059E909 /* AABB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21227DE021369B740059E909 /* AABB.cpp */; };
+		21227DE52136AFA50059E909 /* point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21227DE32136AFA50059E909 /* point.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		21227DB521356BFC0059E909 /* CopyFiles */ = {
+		21227DD1213698030059E909 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -26,18 +26,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		21227DB721356BFC0059E909 /* cpp-labs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cpp-labs"; sourceTree = BUILT_PRODUCTS_DIR; };
-		21227DBA21356BFC0059E909 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		21227DC42136928D0059E909 /* lab1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lab1.cpp; sourceTree = "<group>"; };
-		21227DC52136928D0059E909 /* lab1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = lab1.hpp; sourceTree = "<group>"; };
-		21227DE6213963450059E909 /* inputlab.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = inputlab.cpp; sourceTree = "<group>"; };
-		21227DE7213963450059E909 /* inputlab.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = inputlab.hpp; sourceTree = "<group>"; };
-		21227DFC213974E30059E909 /* wordlength.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = wordlength.cpp; sourceTree = "<group>"; };
-		21227DFD213974E30059E909 /* wordlength.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = wordlength.hpp; sourceTree = "<group>"; };
+		21227DD3213698030059E909 /* cpp-lab2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cpp-lab2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21227DD6213698030059E909 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		21227DDD21369AA90059E909 /* boxCollision.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = boxCollision.cpp; sourceTree = "<group>"; };
+		21227DDE21369AA90059E909 /* boxCollision.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = boxCollision.hpp; sourceTree = "<group>"; };
+		21227DE021369B740059E909 /* AABB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AABB.cpp; sourceTree = "<group>"; };
+		21227DE121369B740059E909 /* AABB.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AABB.hpp; sourceTree = "<group>"; };
+		21227DE32136AFA50059E909 /* point.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = point.cpp; sourceTree = "<group>"; };
+		21227DE42136AFA50059E909 /* point.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = point.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		21227DB421356BFC0059E909 /* Frameworks */ = {
+		21227DD0213698030059E909 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,103 +47,103 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		21227DAE21356BFC0059E909 = {
+		21227DCA213698030059E909 = {
 			isa = PBXGroup;
 			children = (
-				21227DB921356BFC0059E909 /* cpp-labs */,
-				21227DB821356BFC0059E909 /* Products */,
+				21227DD5213698030059E909 /* cpp-lab2 */,
+				21227DD4213698030059E909 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		21227DB821356BFC0059E909 /* Products */ = {
+		21227DD4213698030059E909 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				21227DB721356BFC0059E909 /* cpp-labs */,
+				21227DD3213698030059E909 /* cpp-lab2 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		21227DB921356BFC0059E909 /* cpp-labs */ = {
+		21227DD5213698030059E909 /* cpp-lab2 */ = {
 			isa = PBXGroup;
 			children = (
-				21227DE6213963450059E909 /* inputlab.cpp */,
-				21227DE7213963450059E909 /* inputlab.hpp */,
-				21227DBA21356BFC0059E909 /* main.cpp */,
-				21227DC42136928D0059E909 /* lab1.cpp */,
-				21227DC52136928D0059E909 /* lab1.hpp */,
-				21227DFC213974E30059E909 /* wordlength.cpp */,
-				21227DFD213974E30059E909 /* wordlength.hpp */,
+				21227DD6213698030059E909 /* main.cpp */,
+				21227DDD21369AA90059E909 /* boxCollision.cpp */,
+				21227DDE21369AA90059E909 /* boxCollision.hpp */,
+				21227DE021369B740059E909 /* AABB.cpp */,
+				21227DE121369B740059E909 /* AABB.hpp */,
+				21227DE32136AFA50059E909 /* point.cpp */,
+				21227DE42136AFA50059E909 /* point.hpp */,
 			);
-			path = "cpp-labs";
+			path = "cpp-lab2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		21227DB621356BFC0059E909 /* cpp-labs */ = {
+		21227DD2213698030059E909 /* cpp-lab2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 21227DBE21356BFC0059E909 /* Build configuration list for PBXNativeTarget "cpp-labs" */;
+			buildConfigurationList = 21227DDA213698030059E909 /* Build configuration list for PBXNativeTarget "cpp-lab2" */;
 			buildPhases = (
-				21227DB321356BFC0059E909 /* Sources */,
-				21227DB421356BFC0059E909 /* Frameworks */,
-				21227DB521356BFC0059E909 /* CopyFiles */,
+				21227DCF213698030059E909 /* Sources */,
+				21227DD0213698030059E909 /* Frameworks */,
+				21227DD1213698030059E909 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "cpp-labs";
-			productName = "cpp-labs";
-			productReference = 21227DB721356BFC0059E909 /* cpp-labs */;
+			name = "cpp-lab2";
+			productName = "cpp-lab2";
+			productReference = 21227DD3213698030059E909 /* cpp-lab2 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		21227DAF21356BFC0059E909 /* Project object */ = {
+		21227DCB213698030059E909 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Mårten Hakkestad";
 				TargetAttributes = {
-					21227DB621356BFC0059E909 = {
+					21227DD2213698030059E909 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 21227DB221356BFC0059E909 /* Build configuration list for PBXProject "cpp-labs" */;
+			buildConfigurationList = 21227DCE213698030059E909 /* Build configuration list for PBXProject "cpp-lab2" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 21227DAE21356BFC0059E909;
-			productRefGroup = 21227DB821356BFC0059E909 /* Products */;
+			mainGroup = 21227DCA213698030059E909;
+			productRefGroup = 21227DD4213698030059E909 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				21227DB621356BFC0059E909 /* cpp-labs */,
+				21227DD2213698030059E909 /* cpp-lab2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		21227DB321356BFC0059E909 /* Sources */ = {
+		21227DCF213698030059E909 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21227DBB21356BFC0059E909 /* main.cpp in Sources */,
-				21227DFE213974E30059E909 /* wordlength.cpp in Sources */,
-				21227DE8213963450059E909 /* inputlab.cpp in Sources */,
-				21227DC62136928D0059E909 /* lab1.cpp in Sources */,
+				21227DE52136AFA50059E909 /* point.cpp in Sources */,
+				21227DE221369B740059E909 /* AABB.cpp in Sources */,
+				21227DDF21369AA90059E909 /* boxCollision.cpp in Sources */,
+				21227DD7213698030059E909 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		21227DBC21356BFC0059E909 /* Debug */ = {
+		21227DD8213698030059E909 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -201,7 +201,7 @@
 			};
 			name = Debug;
 		};
-		21227DBD21356BFC0059E909 /* Release */ = {
+		21227DD9213698030059E909 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -252,7 +252,7 @@
 			};
 			name = Release;
 		};
-		21227DBF21356BFC0059E909 /* Debug */ = {
+		21227DDB213698030059E909 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -260,7 +260,7 @@
 			};
 			name = Debug;
 		};
-		21227DC021356BFC0059E909 /* Release */ = {
+		21227DDC213698030059E909 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -271,25 +271,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		21227DB221356BFC0059E909 /* Build configuration list for PBXProject "cpp-labs" */ = {
+		21227DCE213698030059E909 /* Build configuration list for PBXProject "cpp-lab2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				21227DBC21356BFC0059E909 /* Debug */,
-				21227DBD21356BFC0059E909 /* Release */,
+				21227DD8213698030059E909 /* Debug */,
+				21227DD9213698030059E909 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		21227DBE21356BFC0059E909 /* Build configuration list for PBXNativeTarget "cpp-labs" */ = {
+		21227DDA213698030059E909 /* Build configuration list for PBXNativeTarget "cpp-lab2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				21227DBF21356BFC0059E909 /* Debug */,
-				21227DC021356BFC0059E909 /* Release */,
+				21227DDB213698030059E909 /* Debug */,
+				21227DDC213698030059E909 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 21227DAF21356BFC0059E909 /* Project object */;
+	rootObject = 21227DCB213698030059E909 /* Project object */;
 }

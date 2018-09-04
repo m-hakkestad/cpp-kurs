@@ -9,8 +9,12 @@
 #include <iostream>
 #include <iomanip>
 #include "lab1.hpp"
+#include "inputlab.hpp"
+#include "wordlength.hpp"
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-   lab1();
+   //lab1();
+    //inputlab();
+    wordlength();
 }
